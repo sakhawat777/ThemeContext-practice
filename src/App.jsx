@@ -1,10 +1,10 @@
-import { ToogleButton } from '../components/ToogleButton';
+import { ToggleButton } from '../components/ToggleButton';
 import { ThemeProvider } from '../components/ThemeProvider';
 
 function App() {
 	return (
 		<ThemeProvider>
-			<ToogleButton />
+			<ToggleButton />
 		</ThemeProvider>
 	);
 }
